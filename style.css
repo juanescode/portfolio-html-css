@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(to bottom, #fff 30%, #f5f5f5 100%);
+}
+
+.header {
+    padding: 50px 20px;
+    background: url('https://www.transparenttextures.com/patterns/checkered-light.png'); 
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.profile {
+    margin-top: 20px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ddd;
+}
+
+.skills {
+    margin-top: 20px;
+}
+
+.skills h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
